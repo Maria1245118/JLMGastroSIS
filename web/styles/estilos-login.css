@@ -1,0 +1,104 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  background-color: #f5f5f5;
+}
+
+h1 {
+  font-family: Montserrat,-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  line-height: 40px;
+  font-size: 24px;
+  font-weight: 400;
+  color: #5a5a5a;
+  text-align: center;
+}
+
+.form-login {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-login .form-campo {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-family: Montserrat,-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  font-size: 18px;
+  margin: 0;
+  margin-bottom: 10px;
+  display: block;
+  width: 100%;
+  line-height: 40px;
+  color: #5a5a5a;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  transition: none;
+}
+
+.form-login .form-campo:focus {
+  border: 3px solid #bfded2;
+  outline: none;
+}
+
+#nome-sistema {
+  font-size: 32px;
+  font-weight: 600;
+  text-shadow: 2px 2px #78c2ad;
+}
+
+.botao {
+  box-sizing: border-box;
+  font-family: Montserrat,-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  display: inline-block;
+  width: 100%;
+  color: #fff;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 8px;
+  border-color: #78c2ad;
+  border-style: none;
+  background-color: #78c2ad;  
+  font-weight: 400;
+  text-align: center;
+  line-height: 40px;
+  vertical-align: middle;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.botao:hover, .botao:focus {
+  background-color: #8fc9b8;
+}
+
+.rodape {
+  text-align: center;
+  width: 100%;
+  font-family: Montserrat,-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  font-size: 16px;
+  color: #737374;
+  margin-top: 10px;
+}
+
+.alerta {
+  color: #fff;
+  position: relative;
+  border-radius: 5px;
+  font-family: Montserrat,-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  font-size: 15px;
+  line-height: 38px;
+  vertical-align: middle;
+  display:inline-block;
+  width: 100%;
+  text-align: center;
+  background-color: #ff7851;
+  border-color: #ffd9ce;
+}
